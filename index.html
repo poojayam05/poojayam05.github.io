@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Forms</title>
+	<style>
+	       body{
+	            font-family: Calibri;
+	            background-color: mintcream;}
+
+
+	        h1{ background-color: peachpuff;
+	            border-radius: 12px;
+	            height: 50px;
+	            width: 100px;
+	            border: none; 
+	            padding-left: 20px; 
+	            margin: auto;
+	        }
+
+           .div{margin-left: 25px;
+           	  height: 720px;
+	 		  width: 700px;
+	 		  background-color: peachpuff;
+	 		  border-radius: 20px;
+	 		  margin: auto;
+	 		  padding: 30px}
+
+	 	    .left{border: none; 
+	 		  border-radius: 12px;
+	 		  height: 25px;
+	 		  width: 300px;
+	 		  padding-left: 25px;}
+
+	 		.right{border: none;
+	 			border-radius: 12px;
+	 			height: 25px;
+	 			width: 300px;
+	 			margin-left: 25px;
+	 			padding-left: 25px;}
+
+
+	 		.a{ border: none;	    
+	 		    border-radius: 12px;
+	 		    height: 25px;
+	 		    width: 278px;
+	 		    margin-left: 30px;}
+
+
+	        .b{ border: none;
+	        	border-radius: 12px;
+	        	height: 25px;
+	        	width: 656px;
+	        	padding-left: 25px;}
+
+
+	        .x{ display: inline-block;
+	 	        }
+
+
+	 	    .y{ margin-left: 285px;
+	 		    display: inline-block;} 
+
+	</style>
+</head>
+    <body>
+    	<h1>Form</h1><br>
+        <form>  
+          <div class="div">
+          	<h4>Name</h4>
+          	<input type="text" name="" placeholder="First Name" class="left">
+          	<input type="text" name="" placeholder="Last Name" class="right">
+            <br>
+		    <br>
+		    <h4>Email Address</h4>
+		    <input type="email" placeholder=" Enter the E-mail" class="b">
+		    <br>
+		    <br>
+
+          	<h4> Address</h4>
+          	<input type="text" name="" placeholder="Street Address" class="left">
+          	<input type="text" name="" placeholder="Address line 2" class="right">
+          	<br>
+          	<br>
+          	<input type="text" name="" placeholder="City" class="left">
+          	<input type="text" name="" placeholder="Street/Provine/region" class="right">
+          	<br>
+          	<br>
+          	<input type="text" name="" placeholder="Zip/Postal code" class="left">
+          	<select name="" placeholder="Country" class="right" style="width: 326px;">
+          		<option value="Country"> Country</option>
+          		<option value="India">India</option>
+			    <option value="USA">USA</option>
+			    <option value="England">England</option>
+			    <option value="Italy">Italy</option>
+			    <option value="Germany">Germany</option>
+			    <option value="France">France</option>
+			    <option value="Russia">Russia</option>
+			 </select>
+			<br>
+			<br>
+			<input type="date" placeholder="Date" class="left">
+			<input type="time" pname="" placeholder="Time" class="a">
+			<select name="" placeholder=" AM" style="border-radius: 12px; height: 25px ; border: none;">
+				<option> AM</option>
+				<option> PM</option>
+			</select>
+             <br>
+             <br>
+
+
+           <p>
+               <h4 class="x">Checkboxes</h4>
+               <h4 class="y">Radios</h4>
+             <br>
+             <br>
+                <input type="checkbox" name="" class="x"> First Choice
+                <input type="radio" name="" class="y" style="margin-left: 270px;"> First Choice
+             <br>
+             <br>
+                <input type="checkbox" name="" class="x"> Second Choice
+                <input type="radio" name="" class="y" style="margin-left: 250px;"> Second Choice
+             <br>
+             <br>
+                <input type="checkbox" name="" class="x"> Third Choice
+                <input type="radio" name="" class="y" style="margin-left: 264px;">Third Choice
+           </p>
+        </div>
+     </form>
+</body>
+</html>

@@ -2,130 +2,169 @@
 <html>
 <head>
 	
-	<title> Forms</title>
+	<title>Linkedin Login</title>
 	<style>
-	       body{
-	            font-family: Calibri;
-	            background-color: mintcream;}
 
 
-	        h1{ background-color: peachpuff;
-	            border-radius: 12px;
-	            height: 50px;
-	            width: 100px;
-	            border: none; 
-	            padding-left: 20px; 
-	            margin: auto;
-	        }
+		.imge{
+        width: 120px;
+        height: 65px;
+        margin-top:40px;
+        margin-left:550px;}  
 
-           .div{margin-left: 25px;
-           	  height: 720px;
-	 		  width: 700px;
-	 		  background-color: peachpuff;
-	 		  border-radius: 20px;
-	 		  margin: auto;
-	 		  padding: 30px}
-
-	 	    .left{border: none; 
-	 		  border-radius: 12px;
-	 		  height: 25px;
-	 		  width: 300px;
-	 		  padding-left: 25px;}
-
-	 		.right{border: none;
-	 			border-radius: 12px;
-	 			height: 25px;
-	 			width: 300px;
-	 			margin-left: 25px;
-	 			padding-left: 25px;}
+        .div{
+             font-family: sans-serif;
+             height:370px;
+             width:390px;
+             border-radius: 7px;
+             margin-top: 10px;
+             background-color:white ;
+             box-shadow: 2px 2px 13px lightgray;
+             padding-top:20px;
+             padding-left: 30px;
+             margin-left:550px;}
 
 
-	 		.a{ border: none;	    
-	 		    border-radius: 12px;
-	 		    height: 25px;
-	 		    width: 278px;
-	 		    margin-left: 30px;}
+        .signin{border: none; 
+	 		  border-radius: 25px;
+	 		  height: 50px;
+	 		  width: 370px;
+	 		  padding-left: 20px;
+	 		  background-color: #0A66C2;
+	 		  color: white;
+	 		  font-size: 18px;
+	 		  transition: 30ms;}
+
+	    .signin:hover{
+	    	  background-color: darkblue; }
+
+	 	input.email{
+               width: 340px;
+               height: 50px;
+               padding-left: 20px;
+               border-color: black;
+               border-width: 1px;
+               transition:transform 334ms;}
+
+        input.email:hover
+               {font-size: 10px;
+               text-align: top;}
 
 
-	        .b{ border: none;
-	        	border-radius: 12px;
-	        	height: 25px;
-	        	width: 656px;
-	        	padding-left: 25px;}
 
 
-	        .x{ display: inline-block;
-	 	        }
+        .join {
+             width: 412px;
+                        
+             padding-left: 100px;
+             padding-top: 25px;
+             height: 32px;
+             margin-top: 2px;
+             margin-left:550px;  
+             font-family: sans-serif;
+             font-size: 16px;}
 
 
-	 	    .y{ margin-left: 285px;
-	 		    display: inline-block;} 
+         .join:hover{}
 
+        .forgot{
+             font-family:sans-serif;
+             font-size: 15px;
+             font-weight: bolder;
+             color: #0A66C2;
+             padding-left: 1px;
+             transition: transform 30ms;}
+
+        .forgot:hover{ text-decoration: underline;
+              width :120x ;
+              height: 35px;
+              border-radius: 20px;
+              background-color: skyblue;}
+
+
+
+        .bottom{
+             width: 2000px;
+             margin-top: -50px;
+             margin-left: -450px; }
+        
+        img{
+             width: 80px;
+             height: 20px;
+             margin-top:70px;
+             margin-left:250px }
+
+
+        li{
+             display: inline-block;
+             padding: 10px;
+             font-family: sans-serif;
+             font-size: 13px;
+             color: gray;}
+
+
+         input[type="submit"]{
+              font-family: sans-serif;
+              font-size: 16px;
+              font-weight: bolder;
+              color: white;}
+
+
+           p.b{
+               font-family:sans-serif;
+               font-size: 15px;
+               font-weight: bolder;
+               color: #0A66C2;
+               margin-left: 35px; 
+               padding-left:7px ;
+               transition: transform 30ms;}
+
+             
+               a{ border: none; color: gray; 
+                text-decoration: none;}
+
+               a:hover{ text-decoration: underline; 
+                 border-radius: 25px;}
+               
 	</style>
 </head>
-    <body>
-    	<h1>Form</h1><br>
-        <form>  
-          <div class="div">
-          	<h4>Name</h4>
-          	<input type="text" name="" placeholder="First Name" class="left">
-          	<input type="text" name="" placeholder="Last Name" class="right">
-            <br>
-		    <br>
-		    <h4>Email Address</h4>
-		    <input type="email" placeholder=" Enter the E-mail" class="b">
-		    <br>
-		    <br>
+<body>
+<div>
+	<p><a href="https://www.linkedin.com/"><img src="png.png" class="imge"></a></p>
+     <div class="div">
+            <h1>Sign in</h1><p>Stay updated on your professional world</p>
 
-          	<h4> Address</h4>
-          	<input type="text" name="" placeholder="Street Address" class="left">
-          	<input type="text" name="" placeholder="Address line 2" class="right">
-          	<br>
-          	<br>
-          	<input type="text" name="" placeholder="City" class="left">
-          	<input type="text" name="" placeholder="Street/Provine/region" class="right">
-          	<br>
-          	<br>
-          	<input type="text" name="" placeholder="Zip/Postal code" class="left">
-          	<select name="" placeholder="Country" class="right" style="width: 326px;">
-          		<option value="Country"> Country</option>
-          		<option value="India">India</option>
-			    <option value="USA">USA</option>
-			    <option value="England">England</option>
-			    <option value="Italy">Italy</option>
-			    <option value="Germany">Germany</option>
-			    <option value="France">France</option>
-			    <option value="Russia">Russia</option>
-			 </select>
-			<br>
-			<br>
-			<input type="date" placeholder="Date" class="left">
-			<input type="time" pname="" placeholder="Time" class="a">
-			<select name="" placeholder=" AM" style="border-radius: 12px; height: 25px ; border: none;">
-				<option> AM</option>
-				<option> PM</option>
-			</select>
-             <br>
-             <br>
+            <input type="text" name="Email or Phone" placeholder="Email or Phone" class="email"><br><br>
 
+            <input type="password" name="Password" placeholder="Password" class="email"><br>
 
-           <p>
-               <h4 class="x">Checkboxes</h4>
-               <h4 class="y">Radios</h4>
-             <br>
-             <br>
-                <input type="checkbox" name="" class="x"> First Choice
-                <input type="radio" name="" class="y" style="margin-left: 270px;"> First Choice
-             <br>
-             <br>
-                <input type="checkbox" name="" class="x"> Second Choice
-                <input type="radio" name="" class="y" style="margin-left: 250px;"> Second Choice
-             <br>
-             <br>
-                <input type="checkbox" name="" class="x"> Third Choice
-                <input type="radio" name="" class="y" style="margin-left: 264px;">Third Choice
-           </p>
+            <p> <a href="#" style="text-decoration: none;" class="forgot" >Forgot password?</a></p>
+
+            <input type="submit" name="Sign in" value="Sign In" placeholder="Sign in" class="signin">
         </div>
-     </form>
+        </div>
+         <div class="join">New to LinkedIn?
+         <a href="#" style="color:#0A66C2;">Join now</a>
+        <br>  
+    </div>
+
+        <div style="font-family: sans-serif;">
+            <ul>
+            <img src="png2.png">
+            <li> <a href="#" class=".a">c 2021</a></li>
+            <li><a href="#" class=".a">User Agreement</a></li>
+            <li><a href="#" class=".a">Privacy Policy</a></li>
+            <li><a href="#" class=".a">Community Guidelines</a></li>
+            <li><a href="#" class=".a">Cookie Policy</a></li>
+            <li><a href="#" class=".a">Copyright Policy</a></li>
+            <li><a href="#" class=".a">Send Feedback</a></li>
+            <li><select style="border: none; color: gray;">Language
+            	<option> Language</option>
+            	<option> English</option>
+            	<option>Hindi</option>
+            	<option> Marathi</option>
+                </select></li>
+        </ul>
+        </div>
 </body>
 </html>
